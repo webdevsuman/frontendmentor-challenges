@@ -9,7 +9,7 @@ const App = () => {
       content: "Monitors activity to identify project roadblocks",
       borderColor: "hsl(180, 62%, 55%)",
       rowSpan: "span 2",
-      iconSrc: "./images/icon-supervisor.svg",
+      iconSrc: "/images/icon-supervisor.svg",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ const App = () => {
         "Scans our talent network to create the optimal team for your project",
       rowSpan: "span 1",
       borderColor: "hsl(0, 78%, 62%)",
-      iconSrc: "./images/icon-team-builder.svg",
+      iconSrc: "/images/icon-team-builder.svg",
     },
 
     {
@@ -28,7 +28,7 @@ const App = () => {
         "Uses data from past projects to provide better delivery estimates",
       rowSpan: "span 1",
       borderColor: "hsl(212, 86%, 64%)",
-      iconSrc: "./images/icon-calculator.svg",
+      iconSrc: "/images/icon-calculator.svg",
     },
     {
       id: 4,
@@ -36,7 +36,7 @@ const App = () => {
       content: "Regularly evaluates our talent to ensure quality",
       rowSpan: "span 2",
       borderColor: "hsl(34, 97%, 64%)",
-      iconSrc: "./images/icon-karma.svg",
+      iconSrc: "/images/icon-karma.svg",
     },
   ];
   return (
